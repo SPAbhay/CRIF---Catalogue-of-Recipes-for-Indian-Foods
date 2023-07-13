@@ -1,0 +1,18 @@
+<% for(let i=0;i<resp.length;i++) {  %>
+    <% var id='/recipe?id='+resp[i]['recipe_id'];  %>
+<a id="<%= id%>" href="<%=id%>" style="color: inherit; text-decoration: inherit">
+    <div class="row">
+        <div class="item col-lg-3" ><img style="width: 100%;height: 100%;object-fit: cover;overflow: hidden;" src="<%- resp[i]['image'] %>"></div>
+
+        <div class="data col">
+        <h3 class="recipe-name"><%= resp[i]['name'] %></h3>
+        <span class="point" style="margin-right: 10px;"><strong>Servings: </strong><%= resp[i]['servings'] %></span>
+        <span class="time" style="margin-right: 10px"><strong>Cooking Time: </strong> <%= resp[i]['cooking_time'] %> Minutes</span>
+            <p class="desc">
+                <%= resp[i]['description'] %>
+            </p>
+        </div>
+
+</div>
+</a>
+<%}%>

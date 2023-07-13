@@ -1,0 +1,10 @@
+<% function capitalizeFirstLetter(s) { %>
+<% return s.charAt(0).toUpperCase() + s.slice(1); %>
+<% } %>
+
+<% recipe['ingredients'].forEach(function(ing) {%>
+
+<li>
+    <div class="box" ><i class="fas fa-check"></i><p style="display: inline-block; margin-left: 10px;"><%= capitalizeFirstLetter(ing.trim()); %></p></div>
+</li>
+<%});%>

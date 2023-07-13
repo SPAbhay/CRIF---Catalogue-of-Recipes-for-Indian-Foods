@@ -1,0 +1,10 @@
+<% var flag='Veg' %>
+<% if(recipe['veg']!==0) {flag='Non-Veg';} %>
+<span style="margin-right: 20px" class="stars"><strong><%- flag %></strong></span>
+<span style="margin-right: 20px" class="point"><strong>Servings: </strong><%= recipe['servings'] %></span>
+<span class="time"><strong>Cooking Time:</strong> <%=recipe["cooking_time"]%> Minutes</span>
+
+
+<p class="desc">
+    <%= recipe['description'] %>
+</p>

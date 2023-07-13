@@ -1,0 +1,20 @@
+<% for(let i=0;i<length(resp['missing']);i++) {  %>
+    <div class="row">
+        <div class="item col-lg-3"><%= i+1 %></div>
+        <div class="data col">
+            <h3 class="recipe-name"><%= resp['recipes'][i]['name'] %></h3>
+            <span class="stars">Stars</span>
+            <span class="point">Rating Point</span>
+            <span class="time">Cooking Time: <%= resp['recipes'][i]['cooking_time'] %></span>
+            <p class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                volutpat, nisi id laoreet fringilla, urna quam placerat massa, non
+                iaculis nulla nisl eget est. Pellentesque facilisis tempus semper.
+                Ut sodales ante eu auctor molestie.
+            </p>
+
+            <p class="ings-need">Needed Ingredients:</p>
+            <%- include('../partials/ingred_list_search', {entered: inp}) %>
+        </div>
+    </div>
+<%}%>

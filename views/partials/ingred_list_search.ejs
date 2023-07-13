@@ -1,0 +1,13 @@
+<% var ids=[]; %>
+<% var name=[]; %>
+<% all_ing.forEach(function(temp) { %>
+    <%  ids.push(temp['ID']); %>
+    <% name.push(temp['name']); %>
+<% });%>
+<% entered.forEach(function(ingredient) {%>
+
+
+    <li style="border-radius: 30px; display: inline-block; margin: 5px" id="<% - ingredient %>" class="ingredients"><i style="margin-left: 5px" class="fa fa-close" id="<%- ingredient %>" onclick="clicked_remove([<%= entered %>],<%- ingredient %> )"></i> <%= name[ids.indexOf(ingredient)] %>
+
+    </li>
+<%});%>

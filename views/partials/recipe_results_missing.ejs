@@ -1,0 +1,23 @@
+
+<% missing_recp=resp['missing'] %>
+<% var no_missing =( (missing_recp.length>5) ? 5 : missing_recp.length); %>
+<% for(let i=0;i<no_missing;i++) {  %>
+    <% var id='/recipe?id='+missing_recp[i]['recipe']['recipe_id'];  %>
+    <a id="<%= id%>" href="<%=id%>" style="color: inherit; text-decoration: inherit">
+    <div class="row">
+        <div class="item col-lg-3" ><img style="width: 100%;height: 100%;object-fit: cover;overflow: hidden;" src="<%- missing_recp[i]['recipe']['image'] %>"></div>
+        <div class="data col">
+            <h3 class="recipe-name"><%= missing_recp[i]['recipe']['name'] %></h3>
+            <span class="stars" style="margin-right: 10px"><strong>Servings:</strong> <%=missing_recp[i]['recipe']['servings']%></span>
+            <span class="time" style="margin-right: 10px"><strong>Cooking Time: </strong> <%= missing_recp[i]['recipe']['cooking_time'] %> Minutes</span>
+            <p class="desc">
+                <%= missing_recp[i]['recipe']['description'] %>
+            </p>
+            <br>
+            <p class="ings-need"><strong>Missing Ingredients:</strong></p>
+
+            <%- include('../partials/ingred_list_search', {entered: Object.values(missing_recp[i]['missing_ingreds_id'])}) %>
+        </div>
+    </div>
+        </a>
+<%}%>

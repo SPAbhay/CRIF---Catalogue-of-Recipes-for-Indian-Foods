@@ -1,0 +1,10 @@
+<% function capitalizeFirstLetter(s) { %>
+    <% return s.charAt(0).toUpperCase() + s.slice(1); %>
+<% } %>
+<% var instruction=recipe['method'].split('.') %>
+
+<% instruction.forEach(function(ins) {if(ins.trim()!==''){ %>
+<div class="inst px-4" style="margin: 10px;">
+    <p class="inst-data"><%- capitalizeFirstLetter(ins.trim()) %></p>
+</div>
+<%}}) %>

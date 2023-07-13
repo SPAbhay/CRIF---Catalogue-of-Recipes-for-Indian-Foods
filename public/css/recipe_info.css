@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+body {
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+}
+.hero-element {
+  position: absolute;
+}
+.fusion--player {
+  background-color: #f7f7f7;
+}
+
+
+#guid_f16738f1_5554_4c04_8560_9d5cb412e2ed {
+position: absolute;
+width: 1020px;
+height: 3035px;
+background-color: #f7f7f7;
+}
+#guid_b82f321e_526e_488e_ac7b_7f9d9e502987 {
+width: 1826px;
+height: 2977px;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 47, 121);
+background-color: #fff;
+}
+#image_holder {
+width: 1036px;
+height: 879px;
+transform-origin: 50% 50%;
+align-items:center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transform: matrix(1, 0, 0, 1, 120, 158);
+background-color: #fff;
+border: 1px solid #707070;
+border-radius: 65px 65px 65px 65px;
+}
+#image{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width:800px;
+  height:800px;
+}
+
+
+#guid_e25f5446_2809_411c_a526_40319dc82933 {
+width: 400px;
+font-family: Segoe UI;
+font-size: 50px;
+color: #780116;
+font-weight: 700;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1263, 423);
+}
+#guid_27d497ca_02c0_40eb_8743_c44c348eeef0 {
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, -9, 23);
+}
+#outer_box_recipe {
+width: 516px;
+height: 324px;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1224, 467);
+background-color: #fff;
+border: 1px solid #707070;
+border-radius: 60px 60px 60px 60px;
+}
+
+#guid_1c4194e0_35a0_4130_9893_b8fb974438e1 {
+  width: 516px;
+  height: 324px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1224, 467);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 60px 60px 60px 60px;
+  }
+
+#guid_57d9646f_de39_45a7_9619_49c05c01f3e4 {
+width: 442px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #707070;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1253, 509);
+}
+
+.recipe_details_text
+{
+  font-family: Segoe UI;
+font-size: 30px;
+color: #707070;
+font-weight: 400;
+}
+
+#guid_56efa979_c4de_4bef_a53e_be18b8a3ea3a {
+width: 307px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #707070;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1253, 603);
+}
+#guid_dc4438d2_649a_4a3e_8145_c88370ce16aa {
+width: 346px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #707070;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1253, 664);
+}
+#guid_fad40f8e_f6ec_44cc_b877_b5cecf5a863b {
+width: 229px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #707070;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1253, 704);
+}
+
+.nav-item{
+  margin:20px;
+}
+#Seperation_line {
+width: 0px;
+height: 1018px;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1383.5, 134.5);
+pointer-events: none;
+}
+
+.header_links{
+  width: 97px;
+font-family: Segoe UI;
+font-size: 35px;
+color: #780116;
+font-weight: 400;
+}
+
+.nav-item{
+    margin:20px;
+}
+#text_ingredients {
+width: 271px;
+font-family: Segoe UI;
+font-size: 50px;
+position: relative;
+color: #251351;
+margin: 20px;
+font-weight: 700;
+}
+#ingreds_box {
+width: 478px;
+height: 701px;
+position: relative;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 172, 1236);
+background-color: #fff;
+overflow-y: scroll;
+border: 1px solid #707070;
+}
+#check_box {
+width: 37px;
+height: 40px;
+position: relative;
+background-color: #fff;
+border: 1px solid #707070;
+}
+#Text_Missing {
+width: 120px;
+position: relative;
+font-family: Segoe UI;
+font-size: 30px;
+color: #000;
+font-weight: 700;
+}
+
+.ingred_sub {
+  width: 181px;
+  font-family: Segoe UI;
+  font-size: 30px;
+  color: #707070;
+  font-weight: 400;
+  }
+#guid_4c6e3420_3e18_4bab_9499_cbb198b7fa09 {
+width: 181px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #707070;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 272, 1784);
+}
+#guid_0a79c957_a44f_4e09_a590_cdfa6d7ed431 {
+width: 37px;
+height: 40px;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 217, 1784);
+background-color: #fff;
+border: 1px solid #707070;
+}
+#guid_ca51a982_f8c4_434a_9367_ec18126bb75a {
+width: 281px;
+font-family: Segoe UI;
+font-size: 50px;
+color: #251351;
+font-weight: 700;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 120, 1984);
+}
+
+.steps_box{
+  
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 172, 2122);
+}
+
+.step_outline {
+width: 1549px;
+height: 103px;
+background-color: #fff;
+border: 1px solid #707070;
+margin: 20px;
+border-radius: 60px 60px 60px 60px;
+display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+
+#guid_5d973216_1e92_4faa_a55f_424dc7ef8afc {
+width: 37px;
+height: 40px;
+border-radius: 50% 50%;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 235, 2154);
+background-color: #fff;
+border: 1px solid #707070;
+}
+.step_header {
+font-family: Segoe UI;
+font-size: 30px;
+position: relative;
+color: #000;
+font-weight: 700;
+margin-left: 20px;
+}
+#guid_8e408703_4813_497d_a65e_5f07b918be52 {
+width: 179px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #000;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 474, 2154);
+}
+#guid_d06f8d61_721c_46c4_9cc1_abce05ecbf12 {
+width: 686px;
+height: 360px;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 998, 1407);
+opacity: 0.18000000715255737;
+}
+#guid_decdc920_9eb8_40ef_a2d3_915d6dcf02eb {
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#guid_783d61a5_b8d1_4dce_9c7d_6068531411ba {
+width: 1920px;
+height: 96px;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 0, 0);
+background-color: #fff;
+}
+#guid_b2caf984_6ef4_44ce_a16a_2ff825f3a993 {
+width: 259px;
+font-family: Segoe UI;
+font-size: 50px;
+color: #251351;
+font-weight: 700;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 794, 15);
+}
+#guid_f5d8b118_04d7_490e_8d2a_3fe841f2ad9f {
+width: 92px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #780116;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1408, 41);
+}
+#guid_ffe76346_322a_4c0f_ab60_c83a81d14737 {
+width: 93px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #780116;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1547, 41);
+}
+#guid_28c6571a_b59a_450d_aecb_ee2cf5b42bc0 {
+width: 147px;
+font-family: Segoe UI;
+font-size: 30px;
+color: #780116;
+font-weight: 400;
+transform-origin: 50% 50%;
+transform: matrix(1, 0, 0, 1, 1687, 41);
+}
+
+    

@@ -1,0 +1,567 @@
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+  }
+  body {
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+  }
+  .hero-element {
+    position: absolute;
+  }
+  .fusion--player {
+    background-color: #fff;
+  }
+  
+  
+#guid_e18cfa49_20ab_48e2_9461_8614cbe200e9 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background-color: #fff;
+}
+#guid_19463e6a_4fe8_4a3a_a061_46b9a60f2620 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 80, 26);
+}
+#guid_7eebfd82_3dc6_4966_8e7f_61bd46f10a2c {
+  width: 289px;
+  font-family: Segoe UI;
+  font-size: 56px;
+  color: #251351;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#guid_4c5d66ab_5f14_4903_9048_688a3937d224 {
+  width: 97px;
+  font-family: Segoe UI;
+  font-size: 35px;
+  color: #780116;
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1275, 43);
+}
+#guid_4f0a03a4_f67a_4c57_800a_5086460511ea {
+  width: 147px;
+  font-family: Segoe UI;
+  font-size: 35px;
+  color: #780116;
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1457, 43);
+}
+#guid_f4065980_1d4f_491a_bd5d_9fb94888e21c {
+  width: 171px;
+  font-family: Segoe UI;
+  font-size: 35px;
+  color: #780116;
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1689, 43);
+}
+#guid_820d7a19_e09c_4bc8_abfa_f9f2ebe611b0 {
+  width: 2015px;
+  height: 0px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, -82.5, 134.5);
+  pointer-events: none;
+}
+#guid_51d670a3_df18_4e66_bc81_b8661cee0577 {
+  width: 633px;
+  height: 91px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 438, 449);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 26px 26px 26px 26px;
+}
+
+#search_icon {
+  vertical-align: middle;
+}
+
+.search_box {
+  width: 533px;
+  height: 50px;
+  background-color: #fff;
+  margin-left: 10px;
+  border: 1px solid #707070;
+  border-radius: 26px 26px 26px 26px;
+}
+
+#text_style{
+  text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      color: rgba(112, 112, 112, 1);
+}
+
+.search_border {
+  width: 633px;
+  height: 91px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 438, 449);
+  background-color: #fff;
+  border: 1px solid #707070;
+  vertical-align: middle;
+  border-radius: 26px 26px 26px 26px;
+}
+
+#guid_493a1f08_d103_4676_ab90_5dc171cecb9a {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 611, 329);
+}
+#guid_21871cbe_a727_4279_b231_42c3e592269e {
+  width: 289px;
+  font-family: Segoe UI;
+  font-size: 56px;
+  color: #251351;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#guid_fb52206a_93a3_48d0_afd0_8a6def73ada1 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1531, 194);
+}
+#guid_c6c62c88_b132_4c9f_92d8_6df947c01c63 {
+  width: 264px;
+  font-family: Segoe UI;
+  font-size: 40px;
+  color: #251351;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.header_links{
+  width: 97px;
+font-family: Segoe UI;
+font-size: 35px;
+color: #780116;
+font-weight: 400;
+}
+
+.nav-item{
+    margin:20px;
+}
+#Seperation_line {
+  width: 0px;
+  height: 1018px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1383.5, 134.5);
+  pointer-events: none;
+}
+#guid_c2cd1159_d389_4681_bccd_842d70ce60c5 {
+  width: 506px;
+  height: 60px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1400, 370);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 30px 30px 30px 30px;
+}
+#guid_b2447cd0_d305_4f4e_b583_2c90848d0fd5 {
+  width: 506px;
+  height: 60px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1400, 307);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 30px 30px 30px 30px;
+}
+#guid_ac88b46f_82b8_468e_92a4_340c7b3c9a9f {
+  width: 506px;
+  height: 60px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1400, 434);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 30px 30px 30px 30px;
+}
+#guid_c2c3ffda_ddad_4132_a0d5_76b4883a789c {
+  width: 506px;
+  height: 60px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1400, 498);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 30px 30px 30px 30px;
+}
+#guid_e7020314_956c_4dba_a7ec_928e30dfaf2a {
+  width: 506px;
+  height: 60px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1400, 562);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 30px 30px 30px 30px;
+}
+.header_links{
+  width: 97px;
+font-family: Segoe UI;
+font-size: 35px;
+color: #780116;
+font-weight: 400;
+}
+
+.nav-item{
+    margin:20px;
+}
+#guid_f65376d7_4f01_444f_8bbc_d8e76537cf85 {
+  width: 219px;
+  font-family: Segoe UI;
+  font-size: 40px;
+  color: #780116;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  border: 1px solid #251351;
+  background-color: #fff;
+  border-radius: 35px 35px 35px 35px;
+  transform: matrix(1, 0, 0, 1, 646, 855);
+}
+#guid_d9118b63_85ec_4b84_ac00_7ed1cdeacfd1 {
+  width: 633px;
+  height: 205px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 438, 540);
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 22px 22px 22px 22px;
+}
+#guid_9befcab6_da2c_4613_ae2e_007d1bdc9f6f {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 167, -7.850006103515625);
+}
+#guid_e71dfa1b_0331_48fc_b1ef_49819346d6a8 {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_484fccf0_8993_4d93_82f8_2bc8faeaf40b {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_ecfb6fb7_d3e5_41ae_a9d9_6d63b8db3802 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 167, 51.149993896484375);
+}
+#guid_49f50dd0_5dd2_429d_88ad_57a37dc2f3bf {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_5c188dc1_7f75_416f_81e1_f7a03df027a8 {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_d54a457e_aaff_4aa8_a2ec_b3afb3762452 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 167, 116.99996948242188);
+}
+#guid_b03a2d70_76d4_46ad_be6d_715c28ebeccb {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_40bdf913_9b58_40af_adc9_8c6232bcf8cd {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_97bdd8fb_dc30_4313_9e19_03ec5ebcb061 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 167, 184.14999389648438);
+}
+#guid_613fa781_8d8f_4ec9_8530_e358bbe8f8cd {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_06994323_f793_4d13_a5b9_4cc813eea268 {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_acedabd3_50d7_48eb_83e0_9b600a4f9363 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 167, 246.14999389648438);
+}
+#guid_6a5e864f_c621_4535_bf23_f0379028b0ea {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_0a759bb7_e718_4683_8f1f_aaf1abdeb3a9 {
+  width: 17.7px;
+  height: 17.7px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1696, 336);
+  pointer-events: none;
+}
+#guid_2a23514c_bdf5_499f_b791_a00e95cba6e8 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 387.0433044433594, 231.02493286132812);
+}
+#guid_aad14538_2d1e_4c12_982f_ccef3ce1d434 {
+  width: 20.996px;
+  height: 20.996px;
+  border-radius: 50% 50%;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 79.95669555664062, 247.40005493164062);
+  background-color: #fff;
+  border: 1px solid #707070;
+}
+#guid_b7513858_cc01_4250_a411_c216285390fa {
+  width: 14.544px;
+  height: 14.544px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 97.56300354003906, 265.0063171386719);
+  pointer-events: none;
+}
+#guid_f4ca392d_9017_4659_a3fe_3c7b181cac92 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 0, 42);
+}
+#guid_2b52c7fc_62da_4dc8_9e76_27c07580879d {
+  width: 59px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #707070;
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 483, 560);
+}
+#guid_b7a028b7_edec_4a38_9039_7bbb2416945c {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_fafd6376_1172_4066_82f8_77c5aa897a3c {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_0f8e6e10_6dc5_422f_a6c9_08e0d8064141 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_db55cfb9_4616_4bfc_aabb_1e983bbedd46 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_9c472838_4882_48de_a93f_a815a80b631f {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 0, 84);
+}
+#guid_aac1e896_321c_446d_9530_80d3855ea207 {
+  width: 59px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #707070;
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 483, 560);
+}
+#guid_f07042e1_5916_44f5_98d6_4d6f9bdf5b30 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_ea1cfac4_ca91_487d_8133_a7e0af1f72a8 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_56ce4cfc_767c_43fd_9e7d_97c892954487 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_6928eae7_25e8_408c_bd40_b0b85e0ddaa5 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_00f72e40_3ab7_4a64_a1ba_56b384cf21b5 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 0, 126);
+}
+#guid_5df4f64e_4b65_4652_86d6_373432117af3 {
+  width: 59px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #707070;
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 483, 560);
+}
+#guid_7a3430e1_e2ae_45fa_8971_b90b9d55a5c7 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_e5faf461_af5a_4aee_8d4b_f9765868a39e {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_85363eed_3ca1_46a4_b379_dfc703665d6d {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_d8aab0a7_3d96_464b_b052_6355108b0b52 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 565);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_29f7caa1_dea1_435e_89f2_c1e3adf43ae5 {
+  width: 59px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #707070;
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 483, 560);
+}
+#guid_6e00256e_6f31_477b_8626_647bdc0530a9 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 0, 236);
+}
+#guid_7d428c23_5f07_4f90_9e89_6d4c552e4855 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1012, 333);
+  background-color: #fff;
+  border: 3px solid #707070;
+}
+#guid_b32e2ee5_ea3e_409c_a3a7_fbc33ca1c4e9 {
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 756.5, 21.5);
+}
+#guid_0f86af86_fb56_4628_bc53_0b5080aa01f3 {
+  width: 8.963px;
+  height: 8.963px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 255.5, 320.53704833984375);
+  pointer-events: none;
+}
+#guid_97983584_d46d_455d_b12c_3b45cd955ee9 {
+  width: 22px;
+  height: 22px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 264.73455810546875, 307.5);
+  pointer-events: none;
+}
+#guid_2f2ad527_219b_4226_9d8e_1d70fb36501e {
+  width: 63px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #780116;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1454, 318);
+}
+#guid_9b21d6c5_f788_4ad5_9346_850bce174a99 {
+  width: 63px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #780116;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1454, 384);
+}
+#guid_67fd0213_788c_4a5a_8081_8fdd794236a1 {
+  width: 63px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #780116;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1454, 446);
+}
+#guid_27fbddf0_b4bc_40be_90a6_2e8a54325c08 {
+  width: 63px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #780116;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1454, 509);
+}
+#guid_015d360c_901c_4b38_9be6_755c8dfee58c {
+  width: 63px;
+  font-family: Segoe UI;
+  font-size: 25px;
+  color: #780116;
+  font-weight: 700;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 1454, 573);
+}
